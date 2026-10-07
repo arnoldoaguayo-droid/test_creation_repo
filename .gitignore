@@ -1,0 +1,39 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment variables
+.env
+
+# Secrets
+secrets/*
+!secrets/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pipeline intermediate data
+inside_data_flow/*
+!inside_data_flow/.gitkeep
+
+# Generated results
+resultados/*
+!resultados/temp/
+
+# Temporary results
+resultados/temp/*
+!resultados/temp/.gitkeep
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Personal VS Code configuration
+.vscode/
